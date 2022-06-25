@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../fonts/static/Inter-Bold.ttf);
+}
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #fafafa;
+}
+
+.all_div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.all_div .div_item {
+    width: 150px;
+    height: 150px;
+    padding: 50px 0;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(255, 112, 17);
+    color: #fff;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.div_item h3{
+    font-family: Inter-Bold;
+    font-size: 19px;
+}
+
+.div_item h1{
+    font-family: Inter-Bold;
+    font-size: 32px;
+} 
+
+
